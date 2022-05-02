@@ -1,0 +1,29 @@
+{
+    "name": "marketdragon/commentable",
+    "type": "library",
+    "require": {
+        "illuminate/database": "^9.10"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.19",
+        "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarketDragon\\Commentable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jo",
+            "email": "jdltechworks@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarketDragon\\Commentable\\CommentableServiceProvider"
+            ]
+        }
+    }
+}
