@@ -2,7 +2,7 @@
     "name": "marketdragon/commentable",
     "type": "library",
     "require": {
-        "illuminate/database": "^9.10"
+        "illuminate/database": "^9.10|^10.0.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.19",
